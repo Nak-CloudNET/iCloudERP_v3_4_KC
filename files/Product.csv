@@ -1,0 +1,145 @@
+﻿Code,Name,Name KH,Category Code,Unit ID,Cost,Price,Alert Quantity, Tax Rate Name,Tax Method,Subcategory Code,Product Variants Separated by |,Supplier1(No),Supplier2(No),Supplier3(No),Supplier4(No),Supplier5(No),Custom Field 1,Custom Field 2,Custom Field 3,Custom Field 4,Custom Field 5,Custom Field 6,Image,Type(standard or service)
+DC25F23,LED TV-25",ទូរទស្សន៍ស្តើងLED,C-027,2,95,138,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+K32K22,LED TV-32",ទូរទស្សន៍ស្តើងLED,C-027,2,145,198,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+K43K22,LED TV-43",ទូរទស្សន៍ស្តើងLED,C-027,2,255,328,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+K50K22,LED TV-50",ទូរទស្សន៍ស្តើងLED,C-027,2,335,458,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SU55F19,DLED UHD SMART TV 55",ទូរទស្សន៍ស្តើង UHD LED WIFI,C-027,2,415,610,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SU65F19,DLED UHD SMART TV 65",ទូរទស្សន៍ស្តើង UHD LED WIFI,C-027,2,680,1050,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-7,DVD Player-DH-7,ក្បាលឌីវីឌី,C-007,2,19,31,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-8,DVD Player-DH-8,ក្បាលឌីវីឌី,C-007,2,20,35,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-9,DVD Player-DH-9,ក្បាលឌីវីឌី,C-007,2,21,40,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-II,DVD Player-DH-II,ក្បាលឌីវីឌី,C-007,2,18.5,31,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-I,DVD Player-DH-I,ក្បាលឌីវីឌី,C-007,2,19,40,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+DH-I (AMP),DVD Player-DH-I (AMP),ក្បាលឌីវីឌី,C-007,2,23,45,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HFS-100,HIFI STEREO-HSF-100,ហាយហ្វាយHIFI STEREO,C-014,2,62,99,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HFS-200E,HIFI STEREO-HSF-200E,ហាយហ្វាយHIFI STEREO,C-014,2,60,118,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HFS-300SE,HIFI STEREO-HSF-300SE,ហាយហ្វាយHIFI STEREO,C-014,2,66,128,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-118,CHEST FREEZER-BD-118,ទូក្លាស្សេកកសុទ្ធ,C-005,2,135,199,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-148,CHEST FREEZER-BD-148,ទូក្លាស្សេកកសុទ្ធ,C-005,2,168,229,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-268,CHEST FREEZER-BD-268,ទូក្លាស្សេកកសុទ្ធ,C-005,2,251,335,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-368,CHEST FREEZER-BD-368,ទូក្លាស្សេកកសុទ្ធ,C-005,2,330,459,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-508,CHEST FREEZER-BD-508,ទូក្លាស្សេកកសុទ្ធ,C-005,2,450,675,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-668,CHEST FREEZER-BD-668,ទូក្លាស្សេកកសុទ្ធ,C-005,2,650,886,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+UBD-250,UP RIGHT FREEZER-UBD-250,ទូក្លាស្សេបញ្ឈរ,C-028,2,273,383,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-148D,ADJUSTABLE FREEZER-BD-148D,ទូក្លាស្សេកកក៏បានត្រជាក់ក៏បាន,C-001,2,175,238,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-268D,ADJUSTABLE FREEZER-BD-268D,ទូក្លាស្សេកកក៏បានត្រជាក់ក៏បាន,C-001,2,245,348,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BD-368D,ADJUSTABLE FREEZER-BD-368D,ទូក្លាស្សេកកក៏បានត្រជាក់ក៏បាន,C-001,2,,,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BCD-208,DOUBLE FREEZER-BCD-208,ទូក្លាស្សេកកម្ខាងត្រជាក់ម្ខាង,C-006,2,215,326,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BCD-238,DOUBLE FREEZER-BCD-238,ទូក្លាស្សេកកម្ខាងត្រជាក់ម្ខាង,C-006,2,235,371,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BCD-286,DOUBLE FREEZER-BCD-286,ទូក្លាស្សេកកម្ខាងត្រជាក់ម្ខាង,C-006,2,300,450,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BCD-368,DOUBLE FREEZER-BCD-368,ទូក្លាស្សេកកម្ខាងត្រជាក់ម្ខាង,C-006,2,320,498,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+CD-310,ICE CREAM FREEZER-CD-310,ទូក្លាស្សេការ៉េម,C-015,2,330,496,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ICD--118,ICE CREAM FREEZER-ICD-118,ទូក្លាស្សេការ៉េម,C-015,2,200,298,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ICD-268,ICE CREAM FREEZER-ICD-268,ទូក្លាស្សេការ៉េម,C-015,2,270,386,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ICD-338,ICE CREAM FREEZER-ICD-338,ទូក្លាស្សេការ៉េម,C-015,2,330,492,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SC-228LP,SHOW CASE-SC-228LP,ទូក្លាស្សេបញ្ឈរទ្វារកញ្ចក់,C-025,2,270,315,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SC-258LP,SHOW CASE-SC-258LP,ទូក្លាស្សេបញ្ឈរទ្វារកញ្ចក់,C-025,2,285,365,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SC-348LP,SHOW CASE-SC-348LP,ទូក្លាស្សេបញ្ឈរទ្វារកញ្ចក់,C-025,2,340,439,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SC-348B,SHOW CASE-SC-348B,ទូក្លាស្សេបញ្ឈរទ្វារកញ្ចក់,C-025,2,330,460,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SC-648LP,SHOW CASE-SC-648LP,ទូក្លាស្សេបញ្ឈរទ្វារកញ្ចក់,C-025,2,631,869,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BC-110,REFRIGERATOR-BC-110,ទូទឹកកក,C-020,2,100,179,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FR-170,REFRIGERATOR-FR-170,ទូទឹកកក,C-020,2,190,265,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-25s,IRON-SI-25s,ឆ្នាំងអ៊ុត,C-016,2,6,13,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-66s,STEAM IRON-66s,ឆ្នាំងអ៊ុតចំហាយទឹក,C-016,2,6.5,16,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-67s,STEAM IRON-67s,ឆ្នាំងអ៊ុតចំហាយទឹក,C-016,2,8,15,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-77s,STEAM IRON-77s,ឆ្នាំងអ៊ុតចំហាយទឹក,C-016,2,8,20,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-78s,STEAM IRON-78s,ឆ្នាំងអ៊ុតចំហាយទឹក,C-016,2,8.5,18,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SI-86s,STEAM IRON-86s,ឆ្នាំងអ៊ុតចំហាយទឹក,C-016,2,9,21,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-18L,ELECRIC KETTLE-KT-18L,កំសៀវអគ្គិសនី,C-009,2,8,16,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-22L,ELECRIC KETTLE-KT-22L,កំសៀវអគ្គិសនី,C-009,2,8,17,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-25L,ELECRIC KETTLE-KT-25L,កំសៀវអគ្គិសនី,C-009,2,8,18,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-162s,ELECRIC KETTLE-KT-162s,កំសៀវអគ្គិសនី,C-009,2,6,14,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-182s,ELECRIC KETTLE-KT-182s,កំសៀវអគ្គិសនី,C-009,2,7.5,16,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-192s,ELECRIC KETTLE-KT-192s,កំសៀវអគ្គិសនី,C-009,2,6.5,18,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-18s,ELECRIC KETTLE-KT-18S,កំសៀវអគ្គិសនី,C-009,2,10.5,20,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+KT-18G,ELECRIC KETTLE-KT-18G,កំសៀវអគ្គិសនី,C-009,2,11,20,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BL-500,BLENDER-BL-500,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,13.5,20,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BL-530,BLENDER-BL-530,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,16,22.5,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BL-600,BLENDER-BL-600,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,21.5,32.5,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BL-601,BLENDER-BL-601,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,23,36.5,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BL-602,BLENDER-BL-602,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,26,45,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FJ-888,BLENDER-FJ-888,ម៉ាស៊ីនទឹកក្រឡុក,C-003,2,45,68,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HM-22,STAND MIXER-HM-22,ម៉ាស៊ីនកូរម្សៅ,C-026,2,16,46,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HM-23,STAND MIXER-HM-23,ម៉ាស៊ីនកូរម្សៅ,C-026,2,22,56,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-18LN,RICE COOKER-RC-18LN,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,18,28,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-28LN,RICE COOKER-RC-28LN,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,21,32,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M12L,RICE COOKER-RC-M12L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,13,22,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M20L,RICE COOKER-RC-M20L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,17.5,28,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M27L,RICE COOKER-RC-M27L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,18,31,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M30L,RICE COOKER-RC-M30L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,22,34,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M38L,RICE COOKER-RC-M38L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,26,45,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M45L,RICE COOKER-RC-M45L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,29,49,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RC-M63L,RICE COOKER-RC-M63L,ឆ្នាំងដាំបាយអគ្គិសនី,C-023,2,38,66,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+HP-333,ELECTRIC HOT PLATE-HM-333,ចង្ក្រានអគ្គិសនី,C-008,2,18,68,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+PRSC-5L,PRESSURE COOKER-PRSC-5L,ឆ្នាំងចំហុយអគ្គិសនី,C-018,2,30,65,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+PRSC-7L,PRESSURE COOKER-PRSC-7L,ឆ្នាំងចំហុយអគ្គិសនី,C-018,2,35,75,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RO350,ROASTER OVEN-RO350,ឆ្នាំងដុតអគ្គិសនី,C-024,2,48,98,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+RO450,ROASTER OVEN-RO450,ឆ្នាំងដុតអគ្គិសនី,C-024,2,50,118,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ROH450,ROHASTER OVEN-ROH450,ឆ្នាំងដុតអគ្គិសនី,C-024,2,60,138,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ROH60,ROHASTER OVEN-ROH60,ឆ្នាំងដុតអគ្គិសនី,C-024,2,72,148,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GS-33,GAS STOVE-GS-33,ចង្ក្រានហ្គាស,C-012,2,10,26,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GS-55,GAS STOVE-GS-55,ចង្ក្រានហ្គាស,C-012,2,20,53,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GS-77,GAS STOVE-GS-77,ចង្ក្រានហ្គាស,C-012,2,21.5,56.5,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GS-78,GAS STOVE-GS-78,ចង្ក្រានហ្គាស,C-012,2,25,61,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GS-88,GAS STOVE-GS-88,ចង្ក្រានហ្គាស,C-012,2,24,59,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GGC-180,GAS STOVE-GGC-180,ចង្ក្រានហ្គាស,C-012,2,25,85,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GGC-180-I,GAS STOVE-GGC-180-I,ចង្ក្រានហ្គាស,C-012,2,27,106,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GGC-250,GAS STOVE-GGC-250,ចង្ក្រានហ្គាស,C-012,2,35,92,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GGC-300,GAS STOVE-GGC-300,ចង្ក្រានហ្គាស,C-012,2,38,94,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GGC-300-I,GAS STOVE-GGC-300-I,ចង្ក្រានហ្គាស,C-012,2,35,110,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BGC-200,GAS STOVE-BGC-200,ចង្ក្រានហ្គាស,C-012,2,36,103,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BGC-260,GAS STOVE-BGC-260,ចង្ក្រានហ្គាស,C-012,2,48,143,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BGC-270,GAS STOVE-BGC-270,ចង្ក្រានហ្គាស,C-012,2,48,155,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+BGC-280,GAS STOVE-BGC-280,ចង្ក្រានហ្គាស,C-012,2,53,165,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SG218-BEF01,GAS STOVE-SG218-BEF01,ចង្ក្រានហ្គាស,C-012,2,84,188,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SG318-BSF01,GAS STOVE-SG318-BSF01,ចង្ក្រានហ្គាស,C-012,2,91,200,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SG228-BSF02G,GAS STOVE-SG228-BSF02G,ចង្ក្រានហ្គាស,C-012,2,57,172,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SG238-BSF02S,GAS STOVE-SG238-BSF02S,ចង្ក្រានហ្គាស,C-012,2,59,177,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GCO500W,GAS STOVE WITH OVEN-GCO500W,ចង្ក្រានហ្គាសមានអូវិន,C-012,2,270,499,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GCO600S,GAS STOVE WITH OVEN-GCO600S,ចង្ក្រានហ្គាសមានអូវិន,C-012,2,280,519,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GCO62,GAS STOVE WITH OVEN-GCO62,ចង្ក្រានហ្គាសមានអូវិន,C-012,2,160,292,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+GCO82,GAS STOVE WITH OVEN-GCO82,ចង្ក្រានហ្គាសមានអូវិន,C-012,2,162,312,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SRH-2590,RANGE HOOD-SRH-2590,ម៉ាស៊ីនបឺតផ្សែង,C-019,2,55,118,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SRH-2690,RANGE HOOD-SRH-2690,ម៉ាស៊ីនបឺតផ្សែង,C-019,2,99,228,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SRH-0990,RANGE HOOD-SRH-0990,ម៉ាស៊ីនបឺតផ្សែង,C-019,2,102,228,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+INVT099,AIR CONDITIONER-INVT099,ម៉ាស៊ីនត្រជាក់,C-002,2,269,330,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+INVT129,AIR CONDITIONER-INVT129,ម៉ាស៊ីនត្រជាក់,C-002,2,303,420,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+MWK189,AIR CONDITIONER-MWK189,ម៉ាស៊ីនត្រជាក់,C-002,2,363,450,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WM9-A,WASHING MACHINE-WM9-A,ម៉ាស៊ីនបោកគក់,C-029,2,155,265,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WMH7-A,WASHING MACHINE-WMH7-A,ម៉ាស៊ីនបោកគក់,C-029,2,215,329,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WMH9-A,WASHING MACHINE-WMH9-A,ម៉ាស៊ីនបោកគក់,C-029,2,255,389,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+CF-86,CEILING FAN-CF-86,កង្ហារពិតាន,C-010,2,12,34,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+CF-98,CEILING FAN-CF-98,កង្ហារពិតាន,C-010,2,15,39,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+SF-18C,STAND FAN-SF-18C,កង្ហារបញ្ឈរ,C-010,2,23,42,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-502,WATER DISPENSER-WTD-502,ម៉ាស៊ីនចំរោះទឹក,C-030,2,76,149,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-503,WATER DISPENSER-WTD-503,ម៉ាស៊ីនចំរោះទឹក,C-030,2,,,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-508F,WATER DISPENSER-WTD-508F,ម៉ាស៊ីនចំរោះទឹក,C-030,2,80,168,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-65,WATER DISPENSER-WTD-65,ម៉ាស៊ីនចំរោះទឹក,C-030,2,132,296,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-72,WATER DISPENSER-WTD-72,ម៉ាស៊ីនចំរោះទឹក,C-030,2,100,175,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-75,WATER DISPENSER-WTD-75,ម៉ាស៊ីនចំរោះទឹក,C-030,2,98,170,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WTD-85-RO,WATER DISPENSER-WTD-85-RO,ម៉ាស៊ីនចំរោះទឹក,C-030,2,115,316,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WF-B501,WATER PURIFIER-WF-B501,ចំរោះទឹក,C-030,2,13,27,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+WF-2811,WATER TAPE FILTER-WF-2811,ចំរោះទឹក,C-030,2,10,23,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-65-1-PP,FILTER OF WTD-65-1-PP,តំរងចំរោះទឹក,C-011,3,5,12,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-65-2-GAC,FILTER OF WTD-65-2-GAC,តំរងចំរោះទឹក,C-011,3,6,14,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-65-3-CTO,FILTER OF WTD-65-3-CTO,តំរងចំរោះទឹក,C-011,3,6,16,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-65-4-UF,FILTER OF WTD-65-4-UF,តំរងចំរោះទឹក,C-011,3,10,20,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-85-1-PP,FILTER OF WTD-85-1-PP,តំរងចំរោះទឹក,C-011,3,5,12,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-85-2+3-CTO,FILTER OF WTD-85-2+3-CTO,តំរងចំរោះទឹក,C-011,3,6,16,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WTD-85-4-RO,FILTER OF WTD-85-4-RO,តំរងចំរោះទឹក,C-011,3,12,22,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER-WF-B501-STONE,FILTER OF-WF-B501-STONE,តំរងចំរោះទឹក,C-011,2,2,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER-WF-B501-SAND,FILTER OF-WF-B501-SAND,តំរងចំរោះទឹក,C-011,2,4,8,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER WF-2811,FILTER OF-WF-2811,តំរងចំរោះទឹក,C-011,2,4,11,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេSLIM TV,REMOTE SLIM TV,តេលេ,C-022,3,3,6,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេLED TV,REMOTE LED TV,តេលេ,C-022,3,3,7,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-7,REMOTE-DH-7,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-8,REMOTE-DH-8,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-9,REMOTE-DH-9,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-II,REMOTE-DH-II,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-III,REMOTE-DH-III,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+តេលេDH-I,REMOTE-DH-I,តេលេ,C-022,3,1.8,4,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ក្បាលអូតូR326SP,REGULATOR-R326SP,ក្បាលអូតូ,C-021,2,12,35,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ធុងហ្គាសថ្មី15KG,GAS TANK 15KG,ធុងហ្គាស,C-013,4,49,60,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ទុយោជ័រ1.6M,GAS PIPE,ទុយោ,C-017,1,3,10,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+ស្រោមដែក1.6M,PIPE COVER,ទុយោ,C-017,1,4,10,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
+FILTER SRH-2590,CHARCOAL FILTER-SRH-2590,តំរងធ្យូង,C-004,2,4,12,1, No Tax, exclusive,,,,,,,,,,,,,,no_image.png,standard
