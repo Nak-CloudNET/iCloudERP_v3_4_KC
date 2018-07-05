@@ -5422,7 +5422,7 @@ class Reports extends MY_Controller
                 ->select($this->db->dbprefix('sales').".id as id, 
 				".$this->db->dbprefix('sales').".date,
 				".$this->db->dbprefix('payments').".date as pdate,
-				".$this->db->dbprefix('sales').".reference_no, biller.company, ".$this->db->dbprefix('sales').".customer, 
+				".$this->db->dbprefix('sales').".reference_no, biller.company, ".$this->db->dbprefix('sales').".customer, users.username AS saleman,
 										sale_status, ".$this->db->dbprefix('sales').".grand_total,  
 										COALESCE((SELECT SUM(erp_return_sales.grand_total) FROM erp_return_sales WHERE erp_return_sales.sale_id = erp_sales.id), 0) as return_sale,
 										COALESCE((SELECT SUM(IF((erp_payments.paid_by != 'deposit' AND ISNULL(erp_payments.return_id)), erp_payments.amount, IF(NOT ISNULL(erp_payments.return_id), ((-1)*erp_payments.amount), 0))) FROM erp_payments WHERE erp_payments.sale_id = erp_sales.id),0) as paid, 
@@ -5432,6 +5432,7 @@ class Reports extends MY_Controller
 										sales.payment_status")
                 ->from('sales')
                 ->join('payments', 'payments.sale_id=sales.id', 'left')
+                ->join('users', 'users.id = sales.saleman_by', 'left')
                 ->join('erp_return_sales', 'erp_return_sales.sale_id = sales.id', 'left')
                 ->join('companies', 'companies.id=sales.customer_id', 'left')
                 ->join('companies as erp_biller', 'biller.id = sales.biller_id', 'inner')
