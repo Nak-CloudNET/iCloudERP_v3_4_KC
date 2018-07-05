@@ -19948,13 +19948,14 @@ class Reports extends MY_Controller
                     $this->excel->getActiveSheet()->SetCellValue('B1', lang('reference_no'));
                     $this->excel->getActiveSheet()->SetCellValue('C1', lang('shop'));
 					$this->excel->getActiveSheet()->SetCellValue('D1', lang('customer'));
+					$this->excel->getActiveSheet()->SetCellValue('E1', lang('Saleman'));
 					// $this->excel->getActiveSheet()->SetCellValue('E1', lang('product'));
 					// $this->excel->getActiveSheet()->SetCellValue('F1', lang('quantity'));
 					// $this->excel->getActiveSheet()->SetCellValue('G1', lang('cost'));
-					$this->excel->getActiveSheet()->SetCellValue('E1', lang('grand_total'));
-					$this->excel->getActiveSheet()->SetCellValue('F1', lang('paid'));
-					$this->excel->getActiveSheet()->SetCellValue('G1', lang('balance'));
-					$this->excel->getActiveSheet()->SetCellValue('H1', lang('payment_status'));
+					$this->excel->getActiveSheet()->SetCellValue('F1', lang('grand_total'));
+					$this->excel->getActiveSheet()->SetCellValue('G1', lang('paid'));
+					$this->excel->getActiveSheet()->SetCellValue('H1', lang('balance'));
+					$this->excel->getActiveSheet()->SetCellValue('I1', lang('payment_status'));
 
                     $row = 2;
 					$total_qty = 0;
@@ -19969,15 +19970,16 @@ class Reports extends MY_Controller
                         $this->excel->getActiveSheet()->SetCellValue('B' . $row, $sc->reference_no);
                         $this->excel->getActiveSheet()->SetCellValue('C' . $row, $sc->biller);
 						$this->excel->getActiveSheet()->SetCellValue('D' . $row, $sc->customer);
+						$this->excel->getActiveSheet()->SetCellValue('E' . $row, $sc->saleman);
       //                $this->excel->getActiveSheet()->SetCellValue('E' . $row, $sc->iname);
 						// $this->excel->getActiveSheet()->SetCellValue('F' . $row, $sc->iqty);
 						// $this->excel->getActiveSheet()->SetCellValue('G' . $row, $sc->icost);
-                        $this->excel->getActiveSheet()->SetCellValue('E' . $row, $this->erp->formatMoney($sc->grand_total));
-						$this->excel->getActiveSheet()->SetCellValue('F' . $row, $this->erp->formatMoney($sc->paid));
-						$this->excel->getActiveSheet()->SetCellValue('G' . $row, $this->erp->formatMoney($sc->balance));
-						$this->excel->getActiveSheet()->SetCellValue('H' . $row, $sc->payment_status);
-                        $this->excel->getActiveSheet()->getStyle('E'. $row.':G'.$row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
-                        $this->excel->getActiveSheet()->getStyle('H'. $row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
+                        $this->excel->getActiveSheet()->SetCellValue('F' . $row, $this->erp->formatMoney($sc->grand_total));
+						$this->excel->getActiveSheet()->SetCellValue('G' . $row, $this->erp->formatMoney($sc->paid));
+						$this->excel->getActiveSheet()->SetCellValue('H' . $row, $this->erp->formatMoney($sc->balance));
+						$this->excel->getActiveSheet()->SetCellValue('I' . $row, $sc->payment_status);
+                        $this->excel->getActiveSheet()->getStyle('F'. $row.':H'.$row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
+                        $this->excel->getActiveSheet()->getStyle('I'. $row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_CENTER);
 						// $total_qty += $sc->total_qty;
 						$total += $sc->grand_total;
 						$paid += $sc->paid;
@@ -19992,14 +19994,14 @@ class Reports extends MY_Controller
                         $row++;
                     }
 
-                    $this->excel->getActiveSheet()->getStyle("E" . $row . ":G" . $row)->getBorders()
+                    $this->excel->getActiveSheet()->getStyle("F" . $row . ":H" . $row)->getBorders()
 						->getTop()->setBorderStyle(PHPExcel_Style_Border::BORDER_MEDIUM);
 					// $this->excel->getActiveSheet()->SetCellValue('F' . $row, $total_qty);
 					// $this->excel->getActiveSheet()->SetCellValue('G' . $row, $total_cost);
-					$this->excel->getActiveSheet()->SetCellValue('E' . $row, $this->erp->formatMoney($total));
-					$this->excel->getActiveSheet()->SetCellValue('F' . $row, $this->erp->formatMoney($paid));
-					$this->excel->getActiveSheet()->SetCellValue('G' . $row, $this->erp->formatMoney($balance));
-                    $this->excel->getActiveSheet()->getStyle('E'. $row.':G'.$row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
+					$this->excel->getActiveSheet()->SetCellValue('F' . $row, $this->erp->formatMoney($total));
+					$this->excel->getActiveSheet()->SetCellValue('G' . $row, $this->erp->formatMoney($paid));
+					$this->excel->getActiveSheet()->SetCellValue('H' . $row, $this->erp->formatMoney($balance));
+                    $this->excel->getActiveSheet()->getStyle('F'. $row.':H'.$row)->getAlignment()->setHorizontal(PHPExcel_Style_Alignment::HORIZONTAL_RIGHT);
 
                 //set font bold,font color,font size,font name and background color to excel  by dara
                     $styleArrays = array(
@@ -20015,7 +20017,7 @@ class Reports extends MY_Controller
                         )
                     );
                     
-                    $this->excel->getActiveSheet()->getStyle('A1:H1')->applyFromArray($styleArrays);
+                    $this->excel->getActiveSheet()->getStyle('A1:I1')->applyFromArray($styleArrays);
 					$this->excel->getActiveSheet()->getColumnDimension('A')->setWidth(20);
 					$this->excel->getActiveSheet()->getColumnDimension('B')->setWidth(20);
 					$this->excel->getActiveSheet()->getColumnDimension('C')->setWidth(20);
@@ -20024,6 +20026,7 @@ class Reports extends MY_Controller
 					$this->excel->getActiveSheet()->getColumnDimension('F')->setWidth(15);
 					$this->excel->getActiveSheet()->getColumnDimension('G')->setWidth(15);
 					$this->excel->getActiveSheet()->getColumnDimension('H')->setWidth(15);
+					$this->excel->getActiveSheet()->getColumnDimension('I')->setWidth(15);
 					// $this->excel->getActiveSheet()->getColumnDimension('I')->setWidth(15);
 					// $this->excel->getActiveSheet()->getColumnDimension('J')->setWidth(15);
 					// $this->excel->getActiveSheet()->getColumnDimension('K')->setWidth(20);
