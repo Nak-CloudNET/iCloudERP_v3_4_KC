@@ -437,7 +437,19 @@
                             </a>
                         </div>
 						-->
-                            <div class="btn-group">
+                        <div class="btn-group">
+                            <a href="<?= site_url('sales/invoice_kc_tax/' . $inv->id) ?>" target="_blank" class="tip btn btn-primary" title="<?= lang('Invoice_kc_Tax') ?>">
+                                <i class="fa fa-print"></i>
+                                <span class="hidden-sm hidden-xs"><?= lang('Invoice_KC_Tax') ?></span>
+                            </a>
+                        </div>
+                        <div class="btn-group">
+                            <a href="<?= site_url('sales/invoice_kc_no_tax/' . $inv->id) ?>" target="_blank" class="tip btn btn-primary" title="<?= lang('Invoice_KC_No_Tax') ?>">
+                                <i class="fa fa-print"></i>
+                                <span class="hidden-sm hidden-xs"><?= lang('Invoice_KC_No_Tax') ?></span>
+                            </a>
+                        </div>
+                        <div class="btn-group">
                             <a href="<?= site_url('sales/print_st_invoice/' . $inv->id) ?>" target="_blank" class="tip btn btn-primary" title="<?= lang('st_invoice') ?>">
                                 <i class="fa fa-print"></i>
                                 <span class="hidden-sm hidden-xs"><?= lang('st_invoice') ?></span>

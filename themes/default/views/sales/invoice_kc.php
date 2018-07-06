@@ -241,8 +241,8 @@
 							?>
 
 							<?php
-								if($erow < 16){
-									$k=15 - $erow;
+								if($erow < 11){
+									$k=10 - $erow;
 									for($j = 1; $j <= $k; $j++){
 										if($Settings->product_discount) {
 											echo  '<tr>
@@ -254,7 +254,7 @@
 												</tr>';
 										}else {
 											echo  '<tr>
-													<td height="30px" class="text-center">'.$no.'</td>
+													<td height="30px" class="text-center"></td>
 													<td></td>
 													<td></td>
 													<td></td>
@@ -473,17 +473,18 @@
     <br>
     <br>
 	<div style="width: 821px;margin: 0 auto;">
-		<a class="btn btn-warning no-print" href="<?= site_url('sales'); ?>" style="border-radius: 0; margin-left: 25px">
-        	<i class="fa fa-hand-o-left" aria-hidden="true"></i>&nbsp;<?= lang("back"); ?>
-     	</a>
-
-     	<a class="btn btn-success no-print" href="<?= site_url('sales/add'); ?>" style="border-radius: 0; margin-left: 10px">
-        	<i class="fa fa-plus" aria-hidden="true"></i>&nbsp;<?= lang("add_sale"); ?>
-     	</a>
-
-     	<a class="btn btn-primary no-print" href="<?= site_url('sales/invoice_kc_without_ctel/'. $invs->id); ?>" style="border-radius: 0; margin-left: 10px">
-        	<i class="fa fa-print" aria-hidden="true"></i>&nbsp;<?= lang("invoice_kc_without_ctel"); ?>
-     	</a>
+        <a class="btn btn-warning no-print" href="<?= site_url('sales'); ?>" style="border-radius: 0">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>&nbsp;<?= lang("back"); ?>
+        </a>
+        <a class="btn btn-primary no-print" href="<?= site_url('sales/add'); ?>" style="border-radius: 0">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>&nbsp;<?= lang("Back To Add Sale"); ?>
+        </a>
+        <a class="btn btn-success no-print" href="<?= site_url("sales/invoice_kc_no_tax/". $invs->id); ?>" style="border-radius: 0">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>&nbsp;<?= lang("Back To No Tax Invoice"); ?>
+        </a>
+        <a class="btn btn-info no-print" href="<?= site_url('sales/invoice_kc_tax/' . $invs->id) ?>" style="border-radius: 0">
+            <i class="fa fa-hand-o-left" aria-hidden="true"></i>&nbsp;<?= lang("Back To Tax Invoice"); ?>
+        </a>
 	</div>
     <br>
     <br>
