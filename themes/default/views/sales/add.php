@@ -657,18 +657,18 @@
                                             <?php } ?>
                                         </div>
                                     </div>
-                                    <div class="col-md-4">
+                                    <!--<div class="col-md-4">
                                         <div class="form-group">
-                                            <?= lang("category_name", "category_name"); ?>
+                                            <?/*= lang("category_name", "category_name"); */?>
                                             <?php
-                                            $cate[''] = lang('all');
+/*                                            $cate[''] = lang('all');
                                             foreach ($categories as $category) {
                                                 $cate[$category->id] = $category->name;
                                             }
                                             echo form_dropdown('category', $cate, (isset($_POST['category']) ? $_POST['category'] : ''), 'id="category" class="form-control input-tip select" data-placeholder="' . lang("select") . ' ' . lang("category") . '" style="width:100%;" ');
-                                            ?>
+                                            */?>
                                         </div>
-                                    </div>
+                                    </div>-->
                                 </div>
                             </div>
                         </div>
