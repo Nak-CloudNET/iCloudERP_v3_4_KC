@@ -3936,7 +3936,7 @@ ORDER BY
 	
 	public function getSalesExportByID($id){
 		$this->db
-                ->select("erp_sales.id, date, reference_no, biller, customer,
+                ->select("erp_sales.id, date, reference_no, biller, customer,users.username AS saleman,
                             GROUP_CONCAT(CONCAT(" . $this->db->dbprefix('sale_items') . ".product_name, '(', " . $this->db->dbprefix('sale_items') . ".product_code , ')') SEPARATOR '\n') as iname, 
                             GROUP_CONCAT(CONCAT((ROUND(".$this->db->dbprefix('sale_items') . ".quantity)), '(', " . $this->db->dbprefix('sale_items') . ".unit_price , ')') SEPARATOR '\n') as iqty, 
                             GROUP_CONCAT(" . $this->db->dbprefix('products') . ".cost SEPARATOR '\n') as icost, 
@@ -3946,6 +3946,7 @@ ORDER BY
                             SUM(".$this->db->dbprefix('sale_items') . ".quantity) as total_qty", FALSE)
                 ->from('sales')
                 ->join('sale_items', 'sale_items.sale_id=sales.id', 'left')
+                ->join('users', 'users.id = sales.saleman_by', 'left')
                 ->join('products', 'products.id = sale_items.product_id', 'left')
                 ->join('warehouses', 'warehouses.id=sales.warehouse_id', 'left')
                 ->join('companies', 'companies.id=sales.customer_id','left')                
