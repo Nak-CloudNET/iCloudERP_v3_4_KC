@@ -1,3 +1,6 @@
+<?php
+	//$this->erp->print_arrays();
+?>
 
 <!DOCTYPE html>
 <html>
@@ -5,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <base href="<?= site_url() ?>" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         <?= $page_title ?>
             <?= $Settings->site_name ?>
@@ -155,11 +158,6 @@
 								</li>
 							</ul>
 						</li>
-						<!--<li class="dropdown">
-                            <a class="btn tip" id="event_to_do" title="<span><?= lang('event_to_do') ?></span>" data-placement="bottom" data-html="true" href="<?= site_url('sales/add_event_to_dos') ?>" data-toggle="modal" data-target="#myModal">
-                                <i class="fa fa-calendar-o" aria-hidden="true"></i><p><?= lang('event_to_do') ?></p>
-                            </a>
-                        </li>-->
                         <?php if ($info) { ?>
 							<li class="dropdown hidden-sm">
 								<a class="btn tip" title="<?= lang('notifications') ?>" data-placement="left" href="#" data-toggle="dropdown">
@@ -277,7 +275,6 @@
 								<i class="fa fa-exclamation-triangle"></i><p><?= lang('alerts') ?></p>
 							</a>
 							<ul class="dropdown-menu pull-right">
-							
 							<?php if ($qty_alert_num > 0) { ?>
 								<li>
 									<a href="<?= site_url('reports/quantity_alerts') ?>" class="">
@@ -285,19 +282,7 @@
 										<span style="padding-right: 35px;"><?= lang('quantity_alerts') ?></span>
 									</a>
 								</li>
-							<?php } ?>
-							
-							
-							<?php if ($public_charge_num > 0) { ?>
-								<li>
-									<a href="<?= site_url('reports/public_charge_alerts') ?>" class="">
-										<span class="label label-danger pull-right" style="margin-top:3px;"><?= sizeof($public_charge_num); ?></span>
-										<span style="padding-right: 35px;"><?= lang('public_charge_alerts') ?></span>
-									</a>
-								</li>
 							<?php } 
-							
-
 							if ($exp_alert_num > 0) { 
 								$alert_num = sizeof($exp_alert_num);
 							?>
@@ -307,12 +292,13 @@
 										<span style="padding-right: 35px;"><?= lang('expiry_alerts') ?></span>
 									</a>
 								</li>
-							<?php }							
+							<?php }
+							// $this->erp->print_arrays($payment_customer_alert_num->id);
 							if (!empty($payment_customer_alert_num)) { ?>
 								<li>
 									<a href="<?= site_url('sales/?alert_id='. $payment_customer_alert_num->id) ?>" class="">
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $payment_customer_alert_num->count; ?></span>
-										<span style="padding-right: 35px;"><?= lang('ar_alerts') ?></span>
+										<span style="padding-right: 35px;"><?= lang('customer_payment_alerts') ?></span>
 									</a>
 								</li>
 								<!-- <li>
@@ -328,7 +314,7 @@
 								<li>
 									<a href="<?= site_url('purchases/?alert_id='. $payment_supplier_alert_num->id) ?>" class="">
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $payment_supplier_alert_num->count; ?></span>
-										<span style="padding-right: 35px;"><?= lang('ap_alerts') ?></span>
+										<span style="padding-right: 35px;"><?= lang('supplier_payment_alerts') ?></span>
 									</a>
 								</li>
 
@@ -342,12 +328,12 @@
 							<?php } 
 
 							if($pos_settings->show_suspend_bar){ ?>
-								<li>
+								<!-- <li>
 									<a href="<?= site_url('sales/suspend/?d='. date('Y-m-d', strtotime($sale_suspend_alert_num->date))) ?>" class="">
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $sale_suspend_alert_num->alert_num; ?></span>
 										<span style="padding-right: 35px;"><?= lang('sale_suspend_alerts') ?></span>
 									</a>
-								</li>
+								</li> -->
 							<?php } 
 							if(!empty($delivery_alert_num)){ ?>
 								<!-- <li>
@@ -358,14 +344,14 @@
 								</li> -->
 							<?php } 
 							if(!empty($customers_alert_num)){ ?>
-								<li>
+								<!-- <li>
 									<a href="<?= site_url('sales/customers_alerts/') ?>" class="">
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $customers_alert_num; ?></span>
 										<span style="padding-right: 35px;"><?= lang('customers_alerts') ?></span>
 									</a>
-								</li>
+								</li> -->
 							 <?php } ?>
-								<li>
+								<!-- <li>
 									<a href="<?= site_url('purchases_request/purchases_request_alerts/') ?>" class="">
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $get_purchases_request_alerts; ?></span>
 										<span style="padding-right: 35px;"><?= lang('purchases_request_alerts') ?></span>
@@ -394,7 +380,7 @@
 										<span class="label label-danger pull-right" style="margin-top:3px;"><?= $deliveries_alert_num; ?></span>
 										<span style="padding-right: 35px;"><?= lang('delivery_alerts') ?></span>
 									</a>
-								</li>
+								</li> -->
 							</ul>
 						</li>
                         <?php if (POS) { ?>
@@ -430,7 +416,7 @@
             </div>
         </header>
 
-         <div class="container bblack" id="container">
+        <div class="container bblack" id="container">
             <div class="row" id="main-con">
                 <div id="sidebar-left" class="col-lg-2 col-md-2">
                     <div class="sidebar-nav nav-collapse collapse navbar-collapse" id="sidebar_menu">
@@ -705,7 +691,7 @@
                                     </ul>
                                 </li>
 																
-                                <!-- <li class="mm_quotes">
+                                <li class="mm_quotes">
                                     <a class="dropmenu" href="#">
                                         <i class="fa fa-heart-o"></i>
                                         <span class="text"> <?= lang('manage_quotes'); ?> </span>
@@ -725,7 +711,7 @@
                                             </a>
                                         </li>
                                     </ul>
-                                </li> -->
+                                </li>
 
                                 <li class="mm_purchases mm_purchases_request">
                                     <a class="dropmenu" href="#">
@@ -745,7 +731,7 @@
                                                 <i class="fa fa-plus-circle"></i>
                                                 <span class="text"> <?= lang('add_purchase_request'); ?></span>
                                             </a>
-                                        </li>
+                                        </li>-->
                                                                             	<li id="purchases_purchase_order">
                                             <a class="submenu" href="<?= site_url('purchases/purchase_order'); ?>">
                                                 <i class="fa fa-star"></i>
@@ -757,7 +743,7 @@
                                                 <i class="fa fa-plus-circle"></i>
                                                 <span class="text"> <?= lang('add_purchase_order'); ?></span>
                                             </a>
-                                        </li> -->
+                                        </li> 
                                     	<li id="purchases_index">
                                             <a class="submenu" href="<?= site_url('purchases'); ?>">
                                                 <i class="fa fa-star"></i>
@@ -1628,7 +1614,7 @@
 														</li>
 														<li id="reports_saleman_detail">
 															<a href="<?= site_url('reports/saleman_detail') ?>">
-																<i class="fa fa-users"></i><span class="text"> <?= lang('saleman_detail_report'); ?></span>
+																<i class="fa fa-users"></i><span class="text"> <?= lang('saleman_detail_report_'); ?></span>
 															</a>
 														</li>
 													</ul>
@@ -1973,7 +1959,7 @@
 								</li>
 							<?php } ?>
 											
-							<!-- <?php if ($GP['quotes-index']) { ?>
+							<?php if ($GP['quotes-index']) { ?>
 								<li class="mm_quotes">
 									<a class="dropmenu" href="#">
 										<i class="fa fa-heart-o"></i>
@@ -1996,7 +1982,7 @@
 										<?php } ?>
 									</ul>
 								</li>
-							<?php } ?> -->
+							<?php } ?>
 
 							<?php if ($GP['purchases-index'] || $GP['purchases_order-index'] || $GP['purchase_request-index'] || $GP['purchases-expenses'] || $GP['purchases-return_list'] || $GP['purchases-return_list'] || $GP['purchases-supplier_balance']) { ?>
 								<li class="mm_purchases mm_purchases_request">
@@ -2021,7 +2007,7 @@
 													<span class="text"> <?= lang('add_purchase_request'); ?></span>
 												</a>
 											</li>
-										<?php } ?>
+										<?php } ?> -->
 										<?php if ($GP['purchases_order-index']){ ?>
 										<li id="purchases_purchase_order">
 											<a class="submenu" href="<?= site_url('purchases/purchase_order'); ?>">
@@ -2037,7 +2023,7 @@
 													<span class="text"> <?= lang('add_purchase_order'); ?></span>
 												</a>
 											</li>
-										<?php } ?> -->
+										<?php } ?>
 										<?php if ($GP['purchases-index']){ ?>
 										<li id="purchases_index">
 											<a class="submenu" href="<?= site_url('purchases'); ?>">
@@ -2717,7 +2703,7 @@
 												<?php if($GP['sale_report-saleman_detail']){ ?>
 													<li id="reports_saleman_detail">
 														<a href="<?= site_url('reports/saleman_detail') ?>">
-															<i class="fa fa-users"></i><span class="text"> <?= lang('saleman_detail_report'); ?></span>
+															<i class="fa fa-users"></i><span class="text"> <?= lang('saleman_detail_report_'); ?></span>
 														</a>
 													</li>
 												<?php } ?>
